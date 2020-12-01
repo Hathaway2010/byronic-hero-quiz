@@ -1,0 +1,41 @@
+main {
+  color: hsl(0, 70%, 70%);
+  background: url("https://upload.wikimedia.org/wikipedia/commons/5/56/John_Henry_Fuseli_-_The_Nightmare.JPG"), hsl(0, 50%, 10%);
+  background-size: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 1px 1px #000000;
+  padding-top: 30px;
+}
+#description {
+  padding:30px;
+}
+form {
+  padding:30px;
+}
+div {
+  padding: 20px;
+  line-height: 1.75;
+  font-size: 15px
+}
+legend{
+  font-size: 20px;
+}
+.question, #result {
+  background-color: hsla(0, 50%, 10%, 0.9);
+ }
+input, textarea, select{
+  background-color: hsl(0, 50%, 85%);
+}
+label {
+  padding-left: 10px;
+}
+#info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: start;
+}
